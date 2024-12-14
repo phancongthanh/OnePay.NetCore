@@ -1,6 +1,6 @@
 # OnePay.NetCore
 
-OnePay.NetCore là một thư viện được thiết kế để tích hợp cổng thanh toán OnePay vào các ứng dụng .NET Core của bạn. Nó giúp đơn giản hóa quá trình tạo liên kết thanh toán, xử lý callback (ReturnURL, IPN) và xử lý phản hồi thanh toán.
+OnePay.NetCore là một thư viện được thiết kế để tích hợp cổng thanh toán OnePay vào các ứng dụng .NET Core. Nó giúp đơn giản hóa quá trình tạo liên kết thanh toán, xử lý callback (ReturnURL, IPN) và xử lý phản hồi thanh toán.
 
 ## Tính năng
 
@@ -143,3 +143,9 @@ services.AddTransient<IOnePayProcessor, TestOnePayProcessor>();
 ## Giấy phép
 
 OnePay.NetCore là một thư viện mã nguồn mở và được cấp phép dưới [Giấy phép MIT](LICENSE). Bạn có thể tự do sử dụng, sửa đổi và phân phối thư viện trong các dự án của mình.
+
+## Cảnh báo
+
+- Để đảm bảo tính bảo mật, tác giả khuyến khích bạn tham khảo/tải về và tùy chỉnh mã nguồn của thư viện này để phù hợp với yêu cầu bảo mật cao hơn cho hệ thống của bạn trong môi trường sản xuất với các giao dịch thanh toán tiền **THẬT**.
+- Mặc dù thư viện này đã được thiết kế để hỗ trợ tích hợp OnePay, bạn có thể tùy chỉnh và tối ưu mã nguồn để đáp ứng các yêu cầu bảo mật cao hơn, nếu cần thiết.
+- Hướng dẫn chi tiết về quy trình tích hợp dịch vụ thanh toán OnePay có sẵn tại [**đây**](https://mtf.onepay.vn/developer/resource/documents/docx/quy_trinh_tich_hop-quocte.pdf).
