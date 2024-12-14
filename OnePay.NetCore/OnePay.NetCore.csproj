@@ -11,8 +11,8 @@
 		<Nullable>enable</Nullable>
 		<PackageTags>dotnet, onepay</PackageTags>
 		<Description>Thư viện hỗ trợ các thao tác thanh toán với cổng thanh toán OnePay.</Description>
-		<RepositoryUrl>https://github.com/your-repo</RepositoryUrl>
-		<LicenseUrl>https://opensource.org/licenses/MIT</LicenseUrl>
+		<RepositoryUrl>https://github.com/phancongthanh/OnePay.NetCore</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/phancongthanh/OnePay.NetCore</PackageProjectUrl>
 		<LicenseExpression>MIT</LicenseExpression>
 		<OutputType>Library</OutputType>
 	</PropertyGroup>
